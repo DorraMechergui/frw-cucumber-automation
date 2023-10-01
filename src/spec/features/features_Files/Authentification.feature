@@ -6,5 +6,5 @@ Feature: Je verifie la page d authentification
     Given Je me connecte sur  l application Mercury
     When Je saisie username "test"
     And Je saisie le password "test"
-    And Je clique sur le bouton submit 
+    And Je clique sur le bouton submit
     Then Je me redirige vers la page home "Login Successfully"

@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 public class AuthentificationStepDefinition {
 	private AuthentificationPage authentificationPage ;
 	
-			
+	
 	public AuthentificationStepDefinition (){
 		this.authentificationPage = new AuthentificationPage();
 			}
